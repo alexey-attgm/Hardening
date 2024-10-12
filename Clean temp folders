@@ -1,0 +1,68 @@
+@echo off
+DEL /S /Q "%TMP%\*.*"
+DEL /S /Q "%TEMP%\*.*"
+DEL /S /Q "%WINDIR%\Temp\*.*"
+DEL /S /Q "%USERPROFILE%\Local Settings\Temp\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Temp\*.*"
+DEL /S /Q  "%windir%\prefetch\*.*"
+
+
+
+******Clean Chrome too*****
+@echo off
+DEL /S /Q "%TMP%\*.*"
+DEL /S /Q "%TEMP%\*.*"
+DEL /S /Q "%WINDIR%\Temp\*.*"
+DEL /S /Q "%USERPROFILE%\Local Settings\Temp\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Temp\*.*"
+DEL /S /Q  "%windir%\prefetch\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\extensions_crx_cache\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Cache\Cache_Data\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Code Cache\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Extension Rules\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Extension Scripts\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Extension State\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Extensions\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Local Extension Settings\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Managed Extension Settings\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Network\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Session Storage\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Sessions\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Storage\ext\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Sync Extension Settings\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\WebStorage\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\extensions_crx_cache\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\AutofillStrikeDatabase\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\BudgetDatabase\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\JumpListIconsMostVisited\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\JumpListIconsRecentClosed\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Local Storage\leveldb\*.*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\browsing*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Affiliation Database*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Convers*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\DIPS"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\DownloadMetadata"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Extension Cookies*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Favicons*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\heavy_ad_intervention_opt_out*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\History*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Login Data*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Network Action*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Preferences*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Private*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\SharedStorage*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Shortcuts*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Top Sites*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\trusted_vault*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Visited Links*"
+DEL /S /Q "%LOCALAPPDATA%\Google\Chrome\User Data\Default\Web Data*"
+
+
+
+
+
+
+
+
+
+
