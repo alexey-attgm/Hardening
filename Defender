@@ -1,0 +1,7 @@
+Windows Server and passive mode
+On Windows Server 2019, Windows Server, version 1803 or newer, Windows Server 2016, or Windows Server 2012 R2, Microsoft Defender Antivirus doesn't enter passive mode automatically when you install a non-Microsoft antivirus product. In those cases, set Microsoft Defender Antivirus to passive mode to prevent problems caused by having multiple antivirus products installed on a server. You can set Microsoft Defender Antivirus to passive mode using a registry key as follows:
+
+Path: HKLM\SOFTWARE\Policies\Microsoft\Windows Advanced Threat Protection
+Name: ForceDefenderPassiveMode
+Type: REG_DWORD
+Value: 1
